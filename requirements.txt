@@ -1,0 +1,22 @@
+# NOTE: Use Python 3.10/3.11 for this project.
+# If you install with Python 3.13, `mlflow==2.2.2` forces `numpy<2` and pip will try
+# to build NumPy from source (often failing on Windows/Git Bash).
+
+pandas
+mlflow
+notebook
+numpy
+scikit-learn
+matplotlib
+# databricks-sdk rejects protobuf 5.26.*..5.29.4; keep <6 for google/grpc libs
+protobuf>=5.29.5,<6
+python-box
+PYYAML
+tqdm
+ensure
+joblib
+types-PyYAML
+Flask
+Flask-Cors
+
+-e .
