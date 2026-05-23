@@ -2,6 +2,8 @@
 # If you install with Python 3.13, `mlflow==2.2.2` forces `numpy<2` and pip will try
 # to build NumPy from source (often failing on Windows/Git Bash).
 
+
+# Here, Libraries you'll need to run this project.
 pandas
 mlflow
 notebook

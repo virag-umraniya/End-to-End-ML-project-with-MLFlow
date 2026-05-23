@@ -1,3 +1,5 @@
+# Using this file you can import/install this project like package.
+
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as f:
